@@ -1,0 +1,94 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Session and authentication
+session/
+.auth/
+*.session
+
+# Environment and config
+.env
+.env.local
+.config.js
+
+# User data files
+admins.json
+premiumUsers.json
+ListDevice.json
+userActivity.json
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+*.pid
+*.seed
+
+# Coverage
+coverage/
+.nyc_output
+
+# Optional npm cache
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache
+.cache
+
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# VSCode test versions
+.vscode-test
+
+# Puppeteer and Chromium
+puppeteer/
+.local-chromium/
+puppeteer-core/
+chromium/
+
+# Temporary files
+*.tmp
+*.temp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Database files
+*.db
+*.sqlite
+
+# Build directories
+dist/
+build/
